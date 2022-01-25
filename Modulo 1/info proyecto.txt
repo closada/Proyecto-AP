@@ -1,0 +1,46 @@
+Esperamos encontrar:
+Unidad 1:
+Realizar una planificación de los tiempos aproximados del proyecto completo
+Un boceto sobre el maquetado
+Uso del repositorio externo.
+
+Unidad 2:
+Una maqueta en html5, css y bootstrap
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir el maquetado al proyecto al repositorio externo.
+
+Unidad 3:
+Pasar la maqueta a Angular
+Una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir lo desarrollado en Angular al repositorio externo.
+
+Unidad 4:
+El diseño de la base de datos
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir los script del modelo de la BD, en una carpeta del repositorio externo.
+
+Unidad 5:
+Realizar el diseño de clases en UML
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir el diseño de clases al repositorio externo, dentro de otra carpeta.
+
+Unidad 6:
+Pasar el modelo en UML a el lenguaje de Java
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir lo codificado a Java, dentro del repositorio externo
+
+Unidad 7:
+Conformar el proyecto en Java web, con su estructura completa.
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir lo codificado a Java Web, dentro del repositorio externo
+
+Unidad 8:
+
+Desarrollar las APIs necesarias e integrarlas al FRONTEND.
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir lo codificado a Java Web, dentro del repositorio externo
+
+Unidad 9:
+Comprobar el funcionamiento, la performance y la seguridad del proyecto completo
+Realizar una planificación de los tiempos aproximados de esta etapa del proyecto
+Subir el proyecto completado al repositorio externo y desplegarlo dentro de Heroku
