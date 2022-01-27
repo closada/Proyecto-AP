@@ -20,7 +20,7 @@
     height: auto;
     margin-top: -125px;
     margin-left: 20px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .acercade {display:flex;
