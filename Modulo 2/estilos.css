@@ -1,11 +1,22 @@
-.row {
+.cab {
         padding: 5px;
         color: white;}
 
 .container-fluid{
     margin: 0 auto;
     min-width: 500px;
+    padding-bottom: 40px;
 }
+
+
+.container, .card {background-color: #ECECFB   !important ;
+                    border: none !important;}
+
+
+
+#experiencia, #educacion, #skills, #proyectos {padding-top: 15px;
+    border-top: #333E74 solid !important;
+    border-radius: 0 !important; }
 
 
 .botones {text-align: right;}
@@ -16,6 +27,7 @@
 
 .yo {border-radius: 20%;
     border-style: groove;
+    border-color: #333E74 ;
     width: 200px;
     height: auto;
     margin-top: -125px;
@@ -32,3 +44,9 @@
 
 .nombre {padding-right: 100px;}
 
+h6 {font-style: italic;}
+
+h5 {font-weight: bold !important;}
+
+.card > h1 {padding-left: 20px;
+            margin-bottom: 25px;}
