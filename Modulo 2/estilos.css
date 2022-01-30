@@ -1,38 +1,69 @@
-.cab {
-        padding: 5px;
-        color: white;}
+*{font-family:/*Helvetica, Verdana, sans-serif;*/
+            'Cambria', Helvetica, Verdana;}
 
+.cab {
+        padding: 10px;
+        color: white;
+        max-height: 80px;}
+        
 .container-fluid{
     margin: 0 auto;
     min-width: 500px;
     padding-bottom: 40px;
-}
 
+}
 
 .container, .card {background-color: #ECECFB   !important ;
                     border: none !important;}
 
 
+.container {box-shadow: 15px 16px rgb(94, 94, 99);
+            padding-top: 80px;}
 
-#experiencia, #educacion, #skills, #proyectos {padding-top: 15px;
-    border-top: #333E74 solid !important;
-    border-radius: 0 !important; }
 
+.tarjeta h1 {font-size: 30px;
+            background-color: #c3c3fa !important;
+            padding: 7px;
+            margin-bottom: 40px !important;
+            }
+
+.acercade h1 {font-size: 50px;
+            }
+
+.card  h1 {color:#333E74; }
 
 .botones {text-align: right;}
 
+
 .banner { /*border-radius: 32px 32px 0 0;*/
     
-         z-index: 1;}
+         z-index: -1;}
 
-.yo {border-radius: 20%;
+.bannr-edit {padding-top: 10px;
+            
+            position: absolute;
+            margin-left: 97%;
+            }
+
+.foto-perfil > i {position:absolute;
+                align-content: center;
+                margin-left: 43%; /*(200px - 36px)/2 */
+                margin-top: 40%;
+        }
+
+
+
+.foto-perfil {border-radius: 50% ;
     border-style: groove;
-    border-color: #333E74 ;
+    border-color: #333E74;
     width: 200px;
     height: auto;
-    margin-top: -125px;
-    margin-left: 20px;
-    z-index: 2;
+    margin-top: -10%;
+    margin-left: 3%;
+    z-index: 1;
+    position:relative;
+    display:inline-block;
+    align-items: center;
 }
 
 .acercade {display:flex;
@@ -40,9 +71,18 @@
 
 .titulo {width: 500px;
         margin-top: 20px;
-        padding-left: 15px;}
+        padding-left: 15px;
+        display:flex;}
 
-.nombre {padding-right: 100px;}
+.titulo > h4 {padding-right: 10px;}
+
+.nombre {padding-right: 100px;
+            display: flex;}
+            
+.nombre > .edit-tx {width: 80%;
+                    height: auto;}
+
+
 
 h6 {font-style: italic;}
 
@@ -50,3 +90,5 @@ h5 {font-weight: bold !important;}
 
 .card > h1 {padding-left: 20px;
             margin-bottom: 25px;}
+
+.acercade p {font-style: italic;}

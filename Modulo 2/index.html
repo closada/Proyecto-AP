@@ -9,12 +9,13 @@
 
 <link rel="stylesheet" type="text/css" href="estilos.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/6010671043.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-<div class="container-fluid bg-dark">
-<header>
-    <div class="row align-items-center cab" >  
+<div class="container-fluid bg-dark ">
+<header class=" bg-dark text-uppercase fixed-top">
+    <div class="row align-items-center cab " >  
     
         <div class="col-lg-1">
             <img src="img/logo-ap.png" alt="logo AP" class="rounded img-fluid">
@@ -32,46 +33,61 @@
             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
           </svg></button></a>
             
-            <button type="button" class="btn btn-dark">Logueo</button>
+            <button type="button" class="btn btn-primary">Logueo</button>
         </div>
         
     </div>
 
-    <!--
-    ESTO PARA DESPUEEEEESSSSS!!!!
-    -->
 </header>
 <div class="container">
     <div class="card">
-        <img src="img/bannerv02.png" alt="banner" class="banner img-fluid">
- 
-  
-        <img src="img/yo.jpg" alt="descripcion" class="img-fluid rounded-circle yo"  >
+        <div>
+            <i class="far fa-edit fa-2x bannr-edit"></i>
+            <img src="img/bannerv02.png" alt="banner" class="banner img-fluid">
+            
+        </div>
+        <div class="foto-perfil">
+            <i class="far fa-edit fa-2x"></i>
+            <img src="img/yo.jpg" alt="descripcion" class="img-fluid rounded-circle"  >
+            
+        </div>
  
         <div class="acercade">
             <div class="titulo">
                 <h4>Full Stack Developer Jr</h4>
+                <i class="far fa-edit"></i>
             </div>
             <div class="nombre">
-                <h1>Camila Victoria Losada</h1> 
-                <p>Estudiante de Ingeniería en Sistemas de Información. Actualmente trabajando como Analista de Back Office en una empresa de cobranzas.</p>
+                
+                <div class="edit-tx">
+                    <h1><strong>Camila Victoria Losada</strong></h1> 
+                    <p>Estudiante de Ingeniería en Sistemas de Información. Actualmente trabajando como Analista de Back Office en una empresa de cobranzas.</p>
+                </div>
+                <div class="iconos">    
+                    <i class="far fa-edit"></i>
+                    
+                </div>
             </div>
         </div>
            
     
     </div>
 
-    <div id="experiencia" class="card">
+    <div class="card tarjeta">
         <h1>Experiencia profesional</h1>
         
             <div class="row">
                 <div class="col-lg-2">
                     <img src="img/logo-rymsa.png" alt="logo-rymsa" class="mx-auto d-block">
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <h5>Analista de Back Office</h5>
                     <h6>Recuperos y Mandatos | 01/2020 - presente</h6>
                     <p>Sumado a las tareas de Administrativa, me encuentro programando en Visual Basic forApplications, optimizando ciertas actividades en Excel.</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
                 </div>
             </div>
         
@@ -80,12 +96,16 @@
                 <div class="col-lg-2">
                     <img src="img/logo-rymsa.png" alt="logo-rymsa" class="mx-auto d-block">
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <h5>Administrativa Semi-Senior</h5>
                     <h6>Recuperos y Mandatos | 11/2018 - 12/2019</h6>
                     <p>-Carga de bases en el sistema, realizar campañas de contacto, facturación, entre otras cosas</p>
                     <p>-Análisis exhaustivo de las bases y, a través de la utilización de las funciones en Excel y con elobjetivo de optimizar el resultado de las campañas, generar rentabilidad y mejorar larecaudación mes a mes.</p>
                 </div>
+                <div class="col-lg-2">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
+                </div>
             </div>
         
         
@@ -93,27 +113,35 @@
                 <div class="col-lg-2">
                     <img src="img/logo-rymsa.png" alt="logo-rymsa" class="mx-auto d-block">
                 </div>
-                <div class="col-lg-10">
+                <div class="col-lg-8">
                     <h5>Ejecutiva de Cobranzas</h5>
                     <h6>Recuperos y Mandatos | 02/2018 - 10/2018</h6>
                     <p>Mi función consistía en contactar a clientes y lograr, mediante técnicas de negociación yescucha activa, la mayor recuperación de dinero en el menor tiempo posible.</p>
+                </div>
+                <div class="col-lg-2">
+                    <i class="far fa-edit"></i>
+                    <i class="far fa-trash-alt"></i>
                 </div>
             </div>
         
         
     </div>
 
-    <div id="educacion" class="card" >
+    <div class="card tarjeta" >
         <h1>Educación</h1>
 
         <div class="row">
             <div class="col-lg-2">
                 <img src="img/logo-utn.png" alt="logo-utn" class="mx-auto d-block">
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-8">
                 <h5>Simultaneidad carreras Ing en Sistemas de Información e Ing Electrónica</h5>
                 <h6>Universidad Tecnológica Nacional (UTN) | 2018 - presente</h6>
                 <p>Comenzando el segundo año de Ing. en Sistemas de Información, aprendiendo conocimientos dematemática y desarrollando programación orientada a mi área de especialización.</p>
+            </div>
+            <div class="col-lg-2">
+                <i class="far fa-edit"></i>
+                <i class="far fa-trash-alt"></i>
             </div>
         </div>
 
@@ -121,10 +149,14 @@
             <div class="col-lg-2">
                 <img src="img/logo-una.png" alt="logo-una" class="mx-auto d-block">
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-8">
                 <h5>Licenciatura en Artes Multimediales</h5>
                 <h6>Universidad Nacional de las Artes (UNA) | 2017 - interrumpido</h6>
                 <p>En el año 2017, aprobé 5 materias de la carrera, en las cuales aprendí vastos conocimientossobre el área multimedial, diseño y programación.</p>
+            </div>
+            <div class="col-lg-2">
+                <i class="far fa-edit"></i>
+                <i class="far fa-trash-alt"></i>
             </div>
         </div>
 
@@ -132,18 +164,22 @@
             <div class="col-lg-2">
                 <img src="img/logo-isap.png" alt="logo-una" class="mx-auto d-block">
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-8">
                 <h5>Bachillerato con Capacitación Laboral en Comunicación Social</h5>
                 <h6>Instituto San Antonio de Padua (secundario) | 2012 - 2016</h6>
                 <p>Finalicé el ciclo siendo abanderada por promedio de notas y recibiendo una medalla alreconocimiento personal e intelectual</p>
              </div>
+             <div class="col-lg-2">
+                <i class="far fa-edit"></i>
+                <i class="far fa-trash-alt"></i>
+            </div>
         </div>
        
         <div class="logros row">
             <div class="col-lg-2">
                 <img src="img/laureles.png" alt="logo-una" class="mx-auto d-block">
             </div>
-            <div class="col-lg-10">
+            <div class="col-lg-8">
                 <h5>Logros / Cursos / Conocimientos</h5>
                             <h6>Medalla del Gobierno de la Ciudad / 2016</h6>
                             <p>En reconocimiento por poseer cualidades personales e intelectuales en el Nivel Medio.</p>
@@ -161,14 +197,18 @@
                            <p>HTML ; CSS ; JavaScript ; C ; C++; Paquete Office (y Excel con macros VBA) ; Ingles con muybuen nivel de conversación, lectura y escritura</p>
                          
             </div>
+            <div class="col-lg-2">
+                <i class="far fa-edit"></i>
+                <i class="far fa-trash-alt"></i>
+            </div>
         </div>
     </div>
-
-    <div id="skills"  class="card">
+<!--ME QUEDE ACA!!!-->
+    <div class="card tarjeta">
         <h1>Hard y Soft Skills</h1>
     </div>
 
-    <div id="proyectos" class="card">
+    <div class="card tarjeta">
         <h1>Proyectos</h1>
     </div>
 </div>
