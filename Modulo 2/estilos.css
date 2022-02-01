@@ -1,24 +1,29 @@
-*{font-family:/*Helvetica, Verdana, sans-serif;*/
-            'Cambria', Helvetica, Verdana;}
+*{font-family:Helvetica, Verdana, sans-serif;
+           /* 'Cambria', Helvetica, Verdana;*/
+            box-sizing: border-box;}
 
 .cab {
         padding: 10px;
         color: white;
-        max-height: 80px;}
+        max-height: 90px;
+        }
         
 .container-fluid{
     margin: 0 auto;
-    min-width: 500px;
+    
     padding-bottom: 40px;
 
 }
+
+body {
+        min-width: 1200px !important;}
 
 .container, .card {background-color: #ECECFB   !important ;
                     border: none !important;}
 
 
 .container {box-shadow: 15px 16px rgb(94, 94, 99);
-            padding-top: 80px;}
+            padding-top: 100px;}
 
 
 .tarjeta h1 {font-size: 30px;
@@ -56,10 +61,10 @@
 .foto-perfil {border-radius: 50% ;
     border-style: groove;
     border-color: #333E74;
-    width: 200px;
+    width: 20%;
     height: auto;
     margin-top: -10%;
-    margin-left: 3%;
+    margin-left: 2%;
     z-index: 1;
     position:relative;
     display:inline-block;
@@ -79,7 +84,7 @@
 .nombre {padding-right: 100px;
             display: flex;}
             
-.nombre > .edit-tx {width: 80%;
+.nombre > .edit-tx {width: 82¡3%;
                     height: auto;}
 
 
