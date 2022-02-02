@@ -84,7 +84,7 @@ body {
 .nombre {padding-right: 100px;
             display: flex;}
             
-.nombre > .edit-tx {width: 82¡3%;
+.nombre > .edit-tx {width: 85% ;
                     height: auto;}
 
 
@@ -97,3 +97,30 @@ h5 {font-weight: bold !important;}
             margin-bottom: 25px;}
 
 .acercade p {font-style: italic;}
+
+.skills {display:flex;
+        padding: 7px;}
+
+.skills > div {width: 50% ;
+                height: auto;
+                text-align: center;}
+h2 {color: #333E74;
+        font-size: 30px !important;}
+
+.idiomas  {display: flex;
+        padding: 5px;}
+
+.progress {width: 30%;
+        border: solid grey 1px !important;
+        border-radius: 0% !important;
+        height: 30px !important;
+        margin-left: 7px;
+        margin-right: 7px;
+        }
+
+h3 {font-size: 25px !important;}
+
+.info-proy {display:flex;}
+
+.info-proy > div {width: 50%;
+                height: auto;}
