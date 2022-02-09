@@ -1,0 +1,110 @@
+PS C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio> ng serve
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files | Names         | Raw Size
+runtime.js          | runtime       |  4.97 kB |
+main.js             | main          |  3.90 kB |
+polyfills.js        | polyfills     |  3.90 kB |
+styles.js           | styles        |  3.89 kB |
+
+                    | Initial Total | 16.66 kB
+
+Build at: 2022-02-08T17:22:10.708Z - Hash: 104188c96d3d2a4d - Time: 3478ms
+
+../../../../#YoProgramo (2021-2022)/Proyecto/Modulo 3/MiPortfolio/src/main.ts - Error: Module build failed: Error: Cannot find 
+module 'C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-angular\src\babel\webpack-loader.js'
+Require stack:
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\ProgressPlugin.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-webpack\src\webpack\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-webpack\src\index.js      
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-angular\src\builders\dev-server\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\architect\node\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\models\architect-command.js        
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\commands\serve-impl.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\schematics\tools\export-ref.js  
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\schematics\tools\index.js       
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\utilities\json-schema.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\models\command-runner.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\lib\cli\index.js
+- C:\Users\closada\AppData\Roaming\npm\node_modules\@angular\cli\lib\init.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\ProgressPlugin.js:412:9        
+    at Hook.eval [as call] (eval at create (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\tapable\lib\HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at NormalModule._doBuild (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:804:24)
+    at NormalModule.build (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:958:15)
+    at C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\Compilation.js:1369:12
+    at NormalModule.needBuild (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:1250:26)
+
+../../../../#YoProgramo (2021-2022)/Proyecto/Modulo 3/MiPortfolio/src/polyfills.ts - Error: Module build failed: Error: Cannot 
+find module 'C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@ngtools\webpack\src\ivy\index.js'   
+Require stack:
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\ProgressPlugin.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-webpack\src\webpack\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-webpack\src\index.js      
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-angular\src\builders\dev-server\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\architect\node\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\models\architect-command.js        
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\commands\serve-impl.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\schematics\tools\export-ref.js  
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\schematics\tools\index.js       
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\utilities\json-schema.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\models\command-runner.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\lib\cli\index.js
+- C:\Users\closada\AppData\Roaming\npm\node_modules\@angular\cli\lib\init.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\ProgressPlugin.js:412:9        
+    at Hook.eval [as call] (eval at create (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\tapable\lib\HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at NormalModule._doBuild (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:804:24)
+    at NormalModule.build (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:958:15)
+    at C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\Compilation.js:1369:12
+    at NormalModule.needBuild (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:1250:26)
+
+../../../../#YoProgramo (2021-2022)/Proyecto/Modulo 3/MiPortfolio/src/styles.css - Error: Module build failed: Error: Cannot find module 'C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\mini-css-extract-plugin\dist\loader.js'Require stack:
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\ProgressPlugin.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-webpack\src\webpack\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-webpack\src\index.js      
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\build-angular\src\builders\dev-server\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\architect\node\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\models\architect-command.js        
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\commands\serve-impl.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\schematics\tools\export-ref.js  
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular-devkit\schematics\tools\index.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\utilities\json-schema.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\models\command-runner.js
+- C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\@angular\cli\lib\cli\index.js
+- C:\Users\closada\AppData\Roaming\npm\node_modules\@angular\cli\lib\init.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\ProgressPlugin.js:412:9        
+    at Hook.eval [as call] (eval at create (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\tapable\lib\HookCodeFactory.js:19:10), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as _call] (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\tapable\lib\Hook.js:14:14)
+    at NormalModule._doBuild (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:804:24)
+    at NormalModule.build (C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\NormalModule.js:958:15)
+    at C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack\lib\Compilation.js:1369:12
+
+Error: Module not found: Error: Can't resolve 'C:/CAMILA/#YoProgramo (2021-2022)/Proyecto/Modulo 3/MiPortfolio/src/app/app.component.css?ngResource' in 'C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio'
+
+Error: Module not found: Error: Can't resolve 'C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio\node_modules\webpack-dev-server\client\index.js?protocol=auto%3A&username=&password=&hostname=0.0.0.0&port=0&pathname=%2Fws&logging=info&reconnect=10' in 'C:\CAMILA\#YoProgramo (2021-2022)\Proyecto\Modulo 3\MiPortfolio'
+
+Error: The loader "C:/CAMILA/#YoProgramo (2021-2022)/Proyecto/Modulo 3/MiPortfolio/src/app/app.component.css" didn't return a string.
+
+
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+× Failed to compile.
