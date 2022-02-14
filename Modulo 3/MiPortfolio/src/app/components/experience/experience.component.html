@@ -1,0 +1,22 @@
+<div class="card tarjeta">
+    <h1>Experiencia profesional</h1>
+        <ul>
+            <li *ngFor="let exp of expList">
+                <div class="row">
+            <div class="col-2">
+                <img [src]="exp.company.image" alt="logo-empresa" class="mx-auto d-block">
+            </div>
+            <div class="col-8">
+                <h5>{{exp.position}}</h5>
+                <h6>{{exp.company.name}} | {{exp.timeStart}} - {{exp.timeEnd}}</h6>
+                <p>{{exp.textInfo}}</p>
+            </div>
+            <div class="col-2">
+                <i class="far fa-edit"></i>
+                <i class="far fa-trash-alt"></i>
+            </div>
+                   </div>
+             </li>
+            
+    </ul>
+</div>

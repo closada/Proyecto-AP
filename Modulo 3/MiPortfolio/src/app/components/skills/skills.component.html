@@ -1,0 +1,14 @@
+<div class="card tarjeta">
+    <h1>Soft y Hard Skills</h1>
+<app-charts></app-charts>
+    <div>
+        <h2>Idiomas</h2>
+        <div class="idiomas" *ngFor="let lang of sklang"> 
+            <h3>{{lang.title}}</h3>
+            <div class="progress">
+                <div class="progress-bar bg-success" [style]="lang.porcent"></div>
+            </div> 
+            <p> <em>{{lang.text}}</em></p>
+        </div>
+    </div>
+</div>

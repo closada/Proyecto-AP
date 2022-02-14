@@ -1,0 +1,154 @@
+{
+    "name": "Camila Victoria Losada",
+    "bannerImage": "https://imagizer.imageshack.com/img924/3816/gTrM7N.png",
+    "profileImage": "https://imagizer.imageshack.com/img923/5679/8wuGCB.jpg",
+    "profileInfo": "Estudiante de Ingeniería en Sistemas de Información. Actualmente trabajando como Analista de Back Office en una empresa de cobranzas.",
+    "position":"Full Stack Developer Jr",
+    "experience":[
+                    {"position":"Analista de Back Office",
+                    "company": {"name":"Recuperos y Mandatos",
+                                "image":"https://imagizer.imageshack.com/img923/9591/nZ5qJ4.png"
+                                },
+                    "timeStart":"01/2020",
+                    "timeEnd":"actualmente",
+                    "textInfo":"Sumado a las tareas de Administrativa, me encuentro programando en Visual Basic forApplications, optimizando ciertas actividades en Excel."
+                    },
+
+                    {"position":"Administrativa Semi-Senior",
+                        "company": {"name":"Recuperos y Mandatos",
+                                    "image":"https://imagizer.imageshack.com/img923/9591/nZ5qJ4.png"
+                                    },
+                        "timeStart":"11/2018",
+                        "timeEnd":"12/2019",
+                        "textInfo":"Carga de bases en el sistema, realizar campañas de contacto, facturación, entre otras cosas. Análisis exhaustivo de las bases y, a través de la utilización de las funciones en Excel y con elobjetivo de optimizar el resultado de las campañas, generar rentabilidad y mejorar larecaudación mes a mes."
+                        },
+                    
+                        {"position":"Ejecutiva de Cobranzas",
+                            "company": {"name":"Recuperos y Mandatos",
+                                        "image":"https://imagizer.imageshack.com/img923/9591/nZ5qJ4.png"
+                                        },
+                            "timeStart":"02/2018",
+                            "timeEnd":"10/2018",
+                            "textInfo":"Mi función consistía en contactar a clientes y lograr, mediante técnicas de negociación yescucha activa, la mayor recuperación de dinero en el menor tiempo posible."
+                            }
+    
+    ],
+
+    
+
+    "education": [ 
+                    {"urlImg":"https://imagizer.imageshack.com/img923/6894/ms8oAZ.png",
+                    "title":"Simultaneidad carreras Ing en Sistemas de Información e Ing Electrónica",
+                    "university":"Universidad Tecnológica Nacional (UTN)",
+                    "start":"2018",
+                    "end":"actualmente",
+                    "info":"Comenzando el segundo año de Ing. en Sistemas de Información, aprendiendo conocimientos dematemática y desarrollando programación orientada a mi área de especialización."
+                    },
+
+                    {"urlImg":"https://imagizer.imageshack.com/img924/7117/X8HuFB.png",
+                        "title":"Licenciatura en Artes Multimediales",
+                        "university":"Universidad Nacional de las Artes (UNA)",
+                        "start":"2017",
+                        "end":"interrumpido",
+                        "info":"En el año 2017, aprobé 5 materias de la carrera, en las cuales aprendí vastos conocimientossobre el área multimedial, diseño y programación."
+                        },
+
+                        {"urlImg":"https://imagizer.imageshack.com/img924/9231/anHpqf.png",
+                            "title":"Bachillerato con Capacitación Laboral en Comunicación Social",
+                            "university":"Instituto San Antonio de Padua (secundario)",
+                            "start":"2012",
+                            "end":"2016",
+                            "info":"Finalicé el ciclo siendo abanderada por promedio de notas y recibiendo una medalla alreconocimiento personal e intelectual."
+                        }
+
+
+    ],
+
+    "educAchievImg":"https://imagizer.imageshack.com/img924/5374/zss2uM.png",
+    "educAchiev":[
+                    {"title":"Medalla del Gobierno de la Ciudad",
+                    "place":"Gob de la Ciudad de Bs As",
+                    "year":"2016",
+                    "info":"En reconocimiento por poseer cualidades personales e intelectuales en el Nivel Medio."},
+
+                    {"title":"ADOBE PHOTOSHOP CS4",
+                        "place":"UTN",
+                        "year":"2016",
+                        "info":"Fundamentos aprobado"},
+                    
+                    {"title":"ADOBE DREAMWEAVER CS4",
+                    "place":"UTN",
+                    "year":"2015",
+                    "info":"Fundamentos aprobado"},
+
+                    {"title":"CERTIFICADO CLE (CERT LENGUAS EXTRANJERAS)",
+                    "place":"CLE",
+                    "year":"2015",
+                    "info":"Examen CIE (Ciclo de Idiomas Extendido) aprobado"}
+    ],
+
+"skills":[
+    {"labels":["Resolución de problemas", 
+        "Creatividad", 
+        "Trabajo en equipo" , 
+        "Responsabilidad", 
+        "Autogestión", 
+        "Comunicación efectiva", 
+        "Adaptabilidad"],
+    "data":[15, 15, 10, 15, 20, 10, 15],
+    "backgroundColor":["rgb(255, 99, 132)",
+        "rgb(75, 192, 192)",
+        "rgb(255, 205, 86)",
+        "rgb(201, 203, 207)",
+        "rgb(54, 162, 235)",
+        "#bc8ed2",
+        "#cbd983"]
+    },
+
+    {"labels":["HTML", 
+        "CSS" , 
+        "JavaScript" , 
+        "TypeScript" , 
+        "JSON" , 
+        "Angular" , 
+        "C" , 
+        "C++" , 
+        "Paquete Office"],
+    "data":[13, 13, 8, 7, 10, 10, 12, 12, 15],
+    "backgroundColor":["rgb(255, 99, 132)",
+        "rgb(75, 192, 192)",
+        "rgb(255, 205, 86)",
+        "rgb(201, 203, 207)",
+        "rgb(54, 162, 235)",
+        "#bc8ed2",
+        "#cbd983",
+        "rgb(203, 50, 52)",
+        "#ff7514"]
+    }
+
+],
+
+"SkLanguaje":[{"tipe":"ingles",
+                "porcent":"width:60%",
+                "text":"Buen nivel de conversación, lectura y escritura"}],
+"proyects":[
+            {"title":"Mi Portfolio Web",
+            "start":"Noviembre 2021",
+            "end":"Mayo 2022",
+            "url":"https://github.com/closada/Proyecto-AP",
+            "info":"Aplicación web full stack, que muestra datos personales, estudios cursados, experiencia laboral, conocimiento de las tecnologías, entre otros. Esta aplicación es de arquitectura distribuida y contiene un diseño de interface (front end) que muestra la información, una base de datos que almacena los datos antes mencionados y cuenta con las APIs necesarias para proveer a través de internet la información (back end).",
+            "carouselActive":"https://imagizer.imageshack.com/img923/4548/yAXYeF.jpg",
+            "carousel":[
+                    {"url":"https://imagizer.imageshack.com/img922/3103/AFbbtc.jpg"},
+                    {"url":"https://imagizer.imageshack.com/img923/6431/oCyB7e.jpg"},
+                    {"url":"https://imagizer.imageshack.com/img923/6076/2vUHmS.jpg"},
+                    {"url":"https://imagizer.imageshack.com/img923/198/ojSp5U.jpg"},
+                    {"url":"https://imagizer.imageshack.com/img923/5268/bFhPiL.jpg"}
+        ]
+        
+        }
+]
+
+
+
+}

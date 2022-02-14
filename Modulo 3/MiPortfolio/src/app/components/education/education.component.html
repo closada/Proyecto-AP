@@ -1,0 +1,45 @@
+<div class="card tarjeta" >
+    <h1>Educación</h1>
+
+<ul>
+    <li *ngFor="let edu of eduList">
+    <div class="row">
+        <div class="col-2">
+            <img [src]="edu.urlImg" alt="logo-utn" class="mx-auto d-block">
+        </div>
+        <div class="col-8">
+            <h5>{{edu.title}}</h5>
+            <h6>{{edu.university}} | {{edu.start}} - {{edu.end}}</h6>
+            <p>{{edu.info}}</p>
+        </div>
+        <div class="col-2">
+            <i class="far fa-edit"></i>
+            <i class="far fa-trash-alt"></i>
+        </div>
+    </div>
+</li>
+</ul>
+    <div class="logros row">
+        <div class="col-2">
+            <img [src]="achImg" alt="logo-una" class="mx-auto d-block">
+        </div>
+        <div class="col-8">
+            <h5>Logros / Cursos / Conocimientos</h5>
+                <ul>
+                    <li *ngFor="let ach of achList">
+                        <h6>{{ach.title}}</h6>
+                        <p>{{ach.place}} | {{ach.year}} | {{ach.info}}</p>
+                    </li>
+                        
+                    </ul>
+                    <!--
+                        <h6>OTROS CONOCIMIENTOS</h6>
+                       <p>HTML ; CSS ; JavaScript ; C ; C++; Paquete Office (y Excel con macros VBA) ; Ingles con muybuen nivel de conversación, lectura y escritura</p>
+                     -->
+        </div>
+        <div class="col-2">
+            <i class="far fa-edit"></i>
+            <i class="far fa-trash-alt"></i>
+        </div>
+    </div>
+</div>

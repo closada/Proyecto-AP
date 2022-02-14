@@ -1,0 +1,44 @@
+<div class="card tarjeta">
+    <h1>Proyectos</h1>
+    <ul>
+      <li *ngFor="let proy of proyList">
+    <div class="info-proy">
+      
+        <div>
+          
+            <h2>{{proy.title}}</h2>
+            <a  [href]="proy.url" target="_blank"><button type="button" class="btn btn-secondary"><i class="fab fa-github fa-2x"></i></button></a>
+        </div>
+    
+        <h6>{{proy.start}} - {{proy.end}}</h6>
+        <p>{{proy.info}}</p>
+    </div>   
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+          
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img [src]="proy.carouselActive" alt="Img" class="d-block w-100">
+              </div>
+             
+                  <div class="carousel-item" *ngFor="let car of proy.carousel">
+                    <img [src]="car.url" alt="Img" class="d-block w-100">
+                  </div>
+               
+            </div>
+          
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+
+          
+        </div>
+      </li>
+      </ul>
+
+
+</div>

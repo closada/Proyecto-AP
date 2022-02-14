@@ -1,1 +1,161 @@
-/* You can add global styles to this file, and also import other style files */
+*{font-family:Helvetica, Verdana, sans-serif;
+    /* 'Cambria', Helvetica, Verdana;*/
+     box-sizing: border-box;}
+
+.cab {
+ padding: 10px;
+ color: white;
+ max-height: 90px;
+ }
+ 
+.container-fluid{
+margin: 0 auto;
+
+padding-bottom: 40px;
+
+}
+
+body {
+ min-width: 1200px !important;}
+
+.container, .card {background-color: #ECECFB   !important ;
+             border: none !important;}
+
+
+.container {box-shadow: 15px 16px rgb(94, 94, 99);
+     padding-top: 100px;}
+
+
+.tarjeta h1 {font-size: 30px;
+     background-color: #c3c3fa !important;
+     padding: 7px;
+     margin-bottom: 40px !important;
+     }
+
+ul {list-style: none;
+     }
+
+.acercade h1 {font-size: 50px;
+     }
+
+.card  h1 {color:#333E74; }
+
+.botones {text-align: right;}
+
+
+.banner { /*border-radius: 32px 32px 0 0;*/
+
+  z-index: -1;}
+
+.bannr-edit {padding-top: 10px;
+     
+     position: absolute;
+     margin-left: 97%;
+     }
+
+.foto-perfil > i {position:absolute;
+         align-content: center;
+         margin-left: 43%; /*(200px - 36px)/2 */
+         margin-top: 40%;
+ }
+
+
+
+.foto-perfil {border-radius: 50% ;
+border-style: groove;
+border-color: #333E74;
+width: 20%;
+height: auto;
+margin-top: -10%;
+margin-left: 2%;
+z-index: 1;
+position:relative;
+display:inline-block;
+align-items: center;
+}
+
+.acercade {display:flex;
+     }
+
+.titulo {width: 500px;
+ margin-top: 20px;
+ padding-left: 15px;
+ display:flex;}
+
+.titulo > h4 {padding-right: 10px;}
+
+.nombre {padding-right: 100px;
+     display: flex;}
+     
+.nombre > .edit-tx {width: 85% ;
+             height: auto;}
+
+
+
+h6 {font-style: italic;}
+
+h5 {font-weight: bold !important;}
+
+.card > h1 {padding-left: 20px;
+     margin-bottom: 25px;}
+
+.acercade p {font-style: italic;}
+
+.skills {display:flex;
+ padding: 7px;}
+
+.skills > div {width: 50% ;
+         height: auto;
+         text-align: center;}
+h2 {color: #333E74;
+ font-size: 30px !important;}
+
+.idiomas  {     display: flex;
+         padding: 5px;
+         }
+
+
+.progress {width: 30%;
+ border: solid grey 1px !important;
+ border-radius: 0% !important;
+ height: 25px !important;
+ margin-left: 7px;
+ margin-right: 7px;
+ }
+
+h3 {font-size: 25px !important;}
+
+.info-proy > div{display: flex;
+         }
+
+.btn-secondary {margin-left: 20px;}
+
+.carousel-inner img {
+ width: 100%;
+ 
+}
+
+.carousel{
+width: 90% !important;
+
+}
+
+#demo {margin: 5px auto;}
+
+/************************** FORMULARIO DE LOGUEO ***************************************************/
+
+.log {  position:fixed;
+ text-align: center;
+ padding: 20px;
+ width: 400px;
+ height: auto;
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  background-color: #333e74b0;
+   }
+
+.log > h1, .log > h4 {color:white;}
+.log > button {margin-top: 10px;}
