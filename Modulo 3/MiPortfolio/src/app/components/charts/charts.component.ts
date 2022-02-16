@@ -12,7 +12,9 @@ Chart.register(...registerables);
 })
 export class ChartsComponent implements OnInit {
 
-  gralData: any;
+  SSkillsData: any;
+  HSkillsData: any;
+  
 
   constructor(private datosPortfolio: PortfolioService) { }
 
@@ -20,25 +22,28 @@ export class ChartsComponent implements OnInit {
 
     this.datosPortfolio.objenerDatos().subscribe(data => {
 
-      this.gralData = data.skills;
-
+      this.SSkillsData = data.SoftSkills;
+      this.HSkillsData = data.HardSkills;
 
     });
+    
 
     const canvas = <HTMLCanvasElement>document.getElementById('myChartSS');
     const ctx = canvas.getContext('2d');
+
+
     if (ctx !== null) {
 
-      const myChart = new Chart(ctx, {
+      var myChart = new Chart(ctx, {
         type: 'doughnut',
         data: {
-          labels: ['Resolución de problemas',
-            'Creatividad',
-            'Trabajo en equipo',
-            'Responsabilidad',
-            'Autogestión',
-            'Comunicación efectiva',
-            'Adaptabilidad'],
+          labels: ['Resolución de problemas', 
+          'Creatividad', 
+          'Trabajo en equipo' , 
+          'Responsabilidad', 
+          'Autogestión', 
+          'Comunicación efectiva', 
+          'Adaptabilidad' ],
           datasets: [{
             label: 'Soft Skills',
             data: [15, 15, 10, 15, 20, 10, 15],
@@ -72,11 +77,12 @@ export class ChartsComponent implements OnInit {
     }
 
 
+
     const canvas2 = <HTMLCanvasElement>document.getElementById('myChartHS');
     const ctx2 = canvas2.getContext('2d');
     if (ctx2 !== null) {
 
-      const myChart = new Chart(ctx2, {
+      var myChart2 = new Chart(ctx2, {
         type: 'doughnut',
         data: {
           labels: ['HTML',

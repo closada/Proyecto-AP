@@ -16,6 +16,9 @@ export class ExperienceComponent implements OnInit {
       
       this.expList = data.experience;
     });
+
+
   }
+
 
 }
