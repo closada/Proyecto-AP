@@ -1,5 +1,6 @@
 import { Component, OnInit , Input} from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
+import { faEdit } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-profile-info',
@@ -7,7 +8,9 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
   styleUrls: ['./profile-info.component.css']
 })
 export class ProfileInfoComponent implements OnInit {
-  miPortfolio:any;
+  miPortfolio:any= [];
+  faEdit = faEdit;
+  
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {

@@ -12,8 +12,8 @@
                 <p>{{exp.textInfo}}</p>
             </div>
             <div class="col-2">
-                <i class="far fa-edit"></i>
-                <i class="far fa-trash-alt"></i>
+                <button type="button" class="btn"><fa-icon [icon]="faEdit"></fa-icon></button>
+                <button type="button" class="btn" (click)="onDelete(exp)"><fa-icon [icon]="faTrash"></fa-icon></button>
             </div>
                    </div>
              </li>

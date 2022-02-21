@@ -11,6 +11,9 @@ import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ChartsComponent } from './components/charts/charts.component';
+import { FormLogComponent } from './components/form-log/form-log.component';
+import { ButtonLogComponent } from './components/button-log/button-log.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -23,12 +26,15 @@ import { ChartsComponent } from './components/charts/charts.component';
     EducationComponent,
     SkillsComponent,
     ProjectsComponent,
-    ChartsComponent
+    ChartsComponent,
+    FormLogComponent,
+    ButtonLogComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

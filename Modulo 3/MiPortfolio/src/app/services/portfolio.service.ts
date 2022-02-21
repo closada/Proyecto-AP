@@ -12,4 +12,8 @@ export class PortfolioService {
   objenerDatos():Observable<any>{
     return this.http.get('./assets/data/data.json');
   }
+//
+//  delete(section:any):Observable<any>{
+//    return 
+//  }
 }

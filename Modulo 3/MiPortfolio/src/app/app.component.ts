@@ -1,4 +1,5 @@
 import { Component , OnInit, Input } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 
 
@@ -9,5 +10,7 @@ import { Component , OnInit, Input } from '@angular/core';
 })
 export class AppComponent {
   title = 'MiPortfolio';
+  section:any;
+
 
 }

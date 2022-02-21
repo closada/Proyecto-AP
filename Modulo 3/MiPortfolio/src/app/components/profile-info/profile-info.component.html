@@ -1,11 +1,11 @@
 <div class="card">
     <div>
-        <i class="far fa-edit fa-2x bannr-edit"></i>
+        <button type="button" class="btn bannr-edit"><fa-icon [icon]="faEdit" class="fa-2x"></fa-icon></button>
         <img [src]="miPortfolio.bannerImage" alt="banner" class="banner img-fluid">
         
     </div>
     <div class="foto-perfil">
-        <i class="far fa-edit fa-2x"></i>
+        <button type="button" class="btn"><fa-icon [icon]="faEdit" class="fa-2x"></fa-icon></button>
         <img [src]="miPortfolio.profileImage" alt="descripcion" class="img-fluid rounded-circle"  >
         
     </div>
@@ -13,7 +13,7 @@
     <div class="acercade">
         <div class="titulo">
             <h4>{{miPortfolio.position}}</h4>
-            <i class="far fa-edit"></i>
+            <button type="button" class="btn"><fa-icon [icon]="faEdit"></fa-icon></button>
         </div>
         <div class="nombre">
             
@@ -22,7 +22,7 @@
                 <p>{{miPortfolio.profileInfo}}</p>
             </div>
             <div class="iconos">    
-                <i class="far fa-edit"></i>
+                <button type="button" class="btn"><fa-icon [icon]="faEdit"></fa-icon></button>
                 
             </div>
         </div>

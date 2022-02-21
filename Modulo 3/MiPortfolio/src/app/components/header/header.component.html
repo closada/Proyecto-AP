@@ -9,11 +9,14 @@
         </div>
     
         <div class="col-3 botones" >
-            <a href="https://www.instagram.com/camilavictoria3045/" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-instagram fa-2x"></i></button></a>
+            <a href="https://www.instagram.com/camilavictoria3045/" target="_blank"><button type="button" class="btn btn-dark"><fa-icon [icon]="faIns" class="fa-2x"></fa-icon></button></a>
        
-              <a href="https://www.linkedin.com/in/camila-losada-b6951b136/" target="_blank"><button type="button" class="btn btn-dark"><i class="fab fa-linkedin fa-2x"></i></button></a>
+              <a href="https://www.linkedin.com/in/camila-losada-b6951b136/" target="_blank"><button type="button" class="btn btn-dark"><fa-icon [icon]="falink" class="fa-2x"></fa-icon></button></a>
             
-            <button type="button" class="btn btn-primary">Logueo</button>
+            <app-button-log 
+            color="" 
+            text="Logueo"
+            (btnClick)="toggleFormLogueo()"></app-button-log>
         </div>
         
     </div>

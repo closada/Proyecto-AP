@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Output , EventEmitter} from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
+import { faEdit , faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-experience',
@@ -8,6 +9,9 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class ExperienceComponent implements OnInit {
   expList:any;
+  faEdit = faEdit;
+  faTrash = faTrashAlt;
+  @Output() onDeletePart: EventEmitter<any> = new EventEmitter();
 
   constructor(private datosPortfolio:PortfolioService) { }
   
@@ -17,8 +21,11 @@ export class ExperienceComponent implements OnInit {
       this.expList = data.experience;
     });
 
-
+  
   }
 
+  onDelete(exp:any){
+    this.onDeletePart.emit(exp);
+  }
 
 }

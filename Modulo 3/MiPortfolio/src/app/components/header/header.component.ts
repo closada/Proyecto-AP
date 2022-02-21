@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
+import { faInstagram , faLinkedin} from '@fortawesome/free-brands-svg-icons';
+
 
 @Component({
   selector: 'app-header',
@@ -8,7 +10,10 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class HeaderComponent implements OnInit {
 miPortfolio:any;
-  constructor(private datosPortfolio:PortfolioService) { }
+faIns = faInstagram;
+falink = faLinkedin;
+
+constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.objenerDatos().subscribe(data => {
@@ -17,4 +22,7 @@ miPortfolio:any;
     });
   }
 
+  toggleFormLogueo(){
+    console.log("ver");
+  }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-projects',
@@ -8,6 +9,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 })
 export class ProjectsComponent implements OnInit {
 proyList:any;
+faGit = faGithub;
 
   constructor(private datosPortfolio:PortfolioService) { }
 

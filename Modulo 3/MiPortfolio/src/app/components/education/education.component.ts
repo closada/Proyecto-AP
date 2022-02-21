@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PortfolioService } from 'src/app/services/portfolio.service';
+import { faEdit , faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-education',
@@ -10,6 +11,9 @@ export class EducationComponent implements OnInit {
 eduList:any;
 achList:any;
 achImg:any;
+faEdit = faEdit;
+faTrash = faTrashAlt;
+
   constructor(private datosPortfolio:PortfolioService) { }
 
   ngOnInit(): void {
